@@ -18,13 +18,20 @@ To write a program to perform linear search and binary search using python progr
 6.	Repeat steps 2 to 5 until low meets high
 ## Program:
 i)	#Use a linear search method to match the item in a list.
-```
+```def max_marks(marks):
+    marks.sort()
+    large=marks[-1]
+    return large
+    
 
 
 
 ```
 ii)	# Find the element in a list using Binary Search(Iterative Method).
-```
+```def max_marks(marks):
+    maxi=max(marks)
+    return maxi
+    
 
 
 
@@ -34,7 +41,12 @@ ii)	# Find the element in a list using Binary Search(Iterative Method).
 iii)	# Find the element in a list using Binary Search (recursive Method).
 ```
 
-
+def max_marks(list1):
+    max=list1[0]
+    for i in list1:
+        if(i>max):
+            max=i
+    return max
 
 
 
@@ -43,6 +55,11 @@ iii)	# Find the element in a list using Binary Search (recursive Method).
 
 
 
+<img width="590" alt="Screenshot 2023-11-28 233432" src="https://github.com/srishanth2006/Search-Algorithm/assets/150319470/863962d0-fab4-4ff9-bc7f-e77c63073005">
+<img width="546" alt="Screenshot 2023-11-28 233503" src="https://github.com/srishanth2006/Search-Algorithm/assets/150319470/1db1999d-5c2a-45a9-82d1-f1bc8f38a34b">
+
+
+<img width="597" alt="Screenshot 2023-11-28 233525" src="https://github.com/srishanth2006/Search-Algorithm/assets/150319470/322d2f3a-ebab-41e7-93ec-d97dad45a897">
 
 
 
